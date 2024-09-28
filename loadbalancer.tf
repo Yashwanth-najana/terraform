@@ -51,4 +51,3 @@ resource "aws_lb_listener" "target-elb" {
     Name = "target-listener"
   }
 }
-
