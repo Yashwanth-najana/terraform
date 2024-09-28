@@ -41,4 +41,3 @@ variable "cidr_subnet6" {
   type        = string
   default     = "10.0.6.0/24"
 }
-
