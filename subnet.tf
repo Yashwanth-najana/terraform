@@ -30,7 +30,6 @@ resource "aws_subnet" "application-subnet1" {
     name = "application-subnet1"
   }
 }
-
 resource "aws_subnet" "application-subnet2" {
   vpc_id                  = aws_vpc.yashvpc.id
   cidr_block              = var.cidr_subnet4
@@ -60,4 +59,3 @@ resource "aws_subnet" "database-subnet2" {
     name = "database-subnet2"
   }
 }
-
