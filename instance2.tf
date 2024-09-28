@@ -11,4 +11,3 @@ resource "aws_instance" "instance2" {
     Name = "instance2"
   }
 }
-
