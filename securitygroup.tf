@@ -31,4 +31,3 @@ resource "aws_security_group" "securitygroup1" {
     Name = "securitygroup1"
   }
 }
-
