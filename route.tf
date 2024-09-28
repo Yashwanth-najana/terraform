@@ -16,9 +16,8 @@ resource "aws_route_table_association" "rt1" {
   route_table_id = aws_route_table.public-route-table.id
 }
 
-# Associating Route table 
+# Associating Route table
 resource "aws_route_table_association" "rt2" {
   subnet_id      = aws_subnet.web-subnet2.id
   route_table_id = aws_route_table.public-route-table.id
 }
-
